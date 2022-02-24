@@ -1,0 +1,14 @@
+server:
+  port: 8080
+# logging
+logging:
+  level:
+    com:
+      bithumbsystems:
+        webflux: DEBUG
+    org:
+      springframework:
+        data: TRACE
+    reactor:
+      core: TRACE
+      util: TRACE
